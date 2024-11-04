@@ -1,0 +1,6 @@
+kind: Cluster #O que eu quero criar
+apiVersion: kind.x-k8s.io/v1alpha4 #Quem vai fazer a criação do cluster
+nodes: #Nós que quero que tenha no meu cluster
+- role: control-plane 
+- role: worker
+- role: worker
